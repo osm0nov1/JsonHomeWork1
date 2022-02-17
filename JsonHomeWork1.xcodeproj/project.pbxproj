@@ -13,6 +13,12 @@
 		C0FBFF9327BE6FB0006C5722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FBFF9127BE6FB0006C5722 /* Main.storyboard */; };
 		C0FBFF9527BE6FB1006C5722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FBFF9427BE6FB1006C5722 /* Assets.xcassets */; };
 		C0FBFF9827BE6FB1006C5722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FBFF9627BE6FB1006C5722 /* LaunchScreen.storyboard */; };
+		C0FBFFA527BE878D006C5722 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FBFFA427BE878D006C5722 /* First.swift */; };
+		C0FBFFA727BE890C006C5722 /* Glossary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FBFFA627BE890C006C5722 /* Glossary.swift */; };
+		C0FBFFA927BE8969006C5722 /* GlossDiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FBFFA827BE8969006C5722 /* GlossDiv.swift */; };
+		C0FBFFAB27BE8983006C5722 /* GlossList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FBFFAA27BE8983006C5722 /* GlossList.swift */; };
+		C0FBFFAD27BE899A006C5722 /* GlossEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FBFFAC27BE899A006C5722 /* GlossEntry.swift */; };
+		C0FBFFAF27BE89B5006C5722 /* GlossDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FBFFAE27BE89B5006C5722 /* GlossDef.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		C0FBFF9427BE6FB1006C5722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0FBFF9727BE6FB1006C5722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0FBFF9927BE6FB1006C5722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FBFFA427BE878D006C5722 /* First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
+		C0FBFFA627BE890C006C5722 /* Glossary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
+		C0FBFFA827BE8969006C5722 /* GlossDiv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossDiv.swift; sourceTree = "<group>"; };
+		C0FBFFAA27BE8983006C5722 /* GlossList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossList.swift; sourceTree = "<group>"; };
+		C0FBFFAC27BE899A006C5722 /* GlossEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossEntry.swift; sourceTree = "<group>"; };
+		C0FBFFAE27BE89B5006C5722 /* GlossDef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossDef.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 		C0FBFF8A27BE6FB0006C5722 /* JsonHomeWork1 */ = {
 			isa = PBXGroup;
 			children = (
+				C0FBFFA327BE8781006C5722 /* Models */,
 				C0FBFF8B27BE6FB0006C5722 /* AppDelegate.swift */,
 				C0FBFF8D27BE6FB0006C5722 /* SceneDelegate.swift */,
 				C0FBFF8F27BE6FB0006C5722 /* ViewController.swift */,
@@ -65,6 +78,19 @@
 				C0FBFF9927BE6FB1006C5722 /* Info.plist */,
 			);
 			path = JsonHomeWork1;
+			sourceTree = "<group>";
+		};
+		C0FBFFA327BE8781006C5722 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C0FBFFA427BE878D006C5722 /* First.swift */,
+				C0FBFFA627BE890C006C5722 /* Glossary.swift */,
+				C0FBFFA827BE8969006C5722 /* GlossDiv.swift */,
+				C0FBFFAA27BE8983006C5722 /* GlossList.swift */,
+				C0FBFFAC27BE899A006C5722 /* GlossEntry.swift */,
+				C0FBFFAE27BE89B5006C5722 /* GlossDef.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +166,13 @@
 			files = (
 				C0FBFF9027BE6FB0006C5722 /* ViewController.swift in Sources */,
 				C0FBFF8C27BE6FB0006C5722 /* AppDelegate.swift in Sources */,
+				C0FBFFA927BE8969006C5722 /* GlossDiv.swift in Sources */,
+				C0FBFFAF27BE89B5006C5722 /* GlossDef.swift in Sources */,
+				C0FBFFAB27BE8983006C5722 /* GlossList.swift in Sources */,
+				C0FBFFA527BE878D006C5722 /* First.swift in Sources */,
+				C0FBFFAD27BE899A006C5722 /* GlossEntry.swift in Sources */,
 				C0FBFF8E27BE6FB0006C5722 /* SceneDelegate.swift in Sources */,
+				C0FBFFA727BE890C006C5722 /* Glossary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
